@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button"
-import Image from "next/image"
-import { ArrowRight, Code } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { ArrowRight, Code } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -12,8 +12,8 @@ export default function HeroSection() {
               <span className="text-primary">Fullstack Developer</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-xl">
-              Hi! I'm Lucho, passionate about building robust web applications with a focus on high-performance forms
-              and optimized UX.
+              Hi! I'm Luciano, passionate about building robust web applications
+              with a focus on high-performance forms and optimized UX.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button size="lg" asChild>
@@ -42,6 +42,5 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

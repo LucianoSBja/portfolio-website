@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail } from "lucide-react"
+import { Linkedin, Github, Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -7,34 +7,55 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center mb-4">
           <div className="mb-4 md:mb-0">
             <a href="#" className="text-xl font-bold text-white">
-              Lucho
+              LucianoSBja
             </a>
             <p className="text-gray-400 mt-1">Fullstack Developer</p>
           </div>
 
           <div className="flex space-x-4">
-            <a href="#about" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#about"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               About
             </a>
-            <a href="#projects" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#projects"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               Projects
             </a>
-            <a href="#skills" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#skills"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               Skills
             </a>
-            <a href="#contact" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#contact"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               Contact
             </a>
           </div>
 
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               <Linkedin className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="#"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               <Github className="h-5 w-5" />
             </a>
-            <a href="mailto:lucho@example.com" className="text-gray-400 hover:text-primary transition-colors">
+            <a
+              href="mailto:lucianosotobonja95@gmail.com"
+              className="text-gray-400 hover:text-primary transition-colors"
+            >
               <Mail className="h-5 w-5" />
             </a>
           </div>
@@ -45,6 +66,5 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
