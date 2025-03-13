@@ -71,4 +71,4 @@ Este proyecto está bajo la licencia **MIT**.
 
 ---
 
-_Hecho con ❤️ por [Tu Nombre]_
+_Hecho con ❤️ por [lucianoSBja]_
