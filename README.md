@@ -36,7 +36,8 @@ Para ejecutar el proyecto localmente, sigue estos pasos:
    ```
 
 4. **Abrir en el navegador:**
-   ```
+
+   ```bash
    http://localhost:3000
    ```
 
