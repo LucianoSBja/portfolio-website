@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { Mail, Linkedin, Github, Calendar } from "lucide-react";
+import SocialLinks from "./ui/socialLinks";
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
@@ -14,6 +15,10 @@ export default function ContactSection() {
     email: "",
     message: "",
   });
+  const githubSvgUrl =
+    "https://www.dropbox.com/scl/fi/lktrff2kp56i24njtvxuy/github.svg?rlkey=nz8uqbse1o776ymlorz69hwxb&st=xfew7dn8&raw=1";
+  const linkedinSvgUrl =
+    "https://www.dropbox.com/scl/fi/qdsqw6wrc2jtv25u8xd24/linkedin.svg?rlkey=n5mg7lqhn5lets1gd1lm7h8fy&st=v603jxcx&raw=1";
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -134,20 +139,7 @@ export default function ContactSection() {
                       <h4 className="font-medium text-gray-900 dark:text-white mb-2">
                         Connect
                       </h4>
-                      <div className="flex space-x-3">
-                        <a
-                          href="#"
-                          className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors"
-                        >
-                          <Linkedin className="h-5 w-5" />
-                        </a>
-                        <a
-                          href="#"
-                          className="text-gray-600 hover:text-primary dark:text-gray-400 dark:hover:text-primary transition-colors"
-                        >
-                          <Github className="h-5 w-5" />
-                        </a>
-                      </div>
+                      <SocialLinks />
                     </div>
                   </div>
                 </CardContent>

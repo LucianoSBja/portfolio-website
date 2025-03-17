@@ -31,7 +31,7 @@ export default function HeroSection() {
           <div className="md:w-1/2 flex justify-center">
             <div className="relative w-64 h-64 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-primary shadow-xl">
               <Image
-                src="/placeholder.svg?height=320&width=320"
+                src="https://www.dropbox.com/scl/fi/dqo44x46vtcmnav1ewve9/lucho.png?rlkey=xvpehzlcodz9y9um0zq46ue2q&st=7cguvnz0&raw=1"
                 alt="Luciano Ezequiel Soto Bonja"
                 fill
                 className="object-cover"
